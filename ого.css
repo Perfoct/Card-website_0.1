@@ -1,0 +1,1084 @@
+body {
+  background-color: black;
+}
+@font-face {
+	font-family: 'Raleway'; 
+	src: local('Raleway'),
+		url(../Итоговая\ работа_2/OGO/Raleway-Light.ttf); 
+}
+
+@font-face {
+	font-family: 'Raleway_regular'; 
+	src: local('Raleway_regular'),
+		url(../Итоговая\ работа_2/OGO/ralewayregular.ttf); 
+}
+
+@font-face {
+	font-family: 'Raleway__tonkiy'; 
+	src: local('Raleway__tonkiy'),
+		url(../Итоговая\ работа_2/OGO/ralewayextralight.ttf); 
+}
+
+
+/* Сайт */
+.SAIT{
+  /* border: solid floralwhite; */
+  margin:0 auto;  
+  width: 1640px;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  display: flex;
+  flex-shrink: 0%;
+}
+
+
+
+ /* Шапка */
+ .logo{
+  position: absolute;
+  top: 50px;
+  left: 50px; 
+}
+
+
+.shapka_block { 
+   /* border: 4px solid blue;  */
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1410px;
+    height: auto;
+}
+
+.verh_shapki{
+position: relative;
+padding-top: -30%;
+}
+
+.shapka_pic1{
+    position: absolute;
+    width: 100%;
+    height: 784px;
+    opacity: 0.6;
+}
+.shapka_pic2 {
+    position: relative;
+    width: 100%;
+    height: 784px; 
+}
+.shapka_pic3{
+  bottom: 30px;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-top: 0%;
+}
+
+  .logo{
+  position: absolute;
+  margin-left: 115px;
+  }
+
+
+.child{
+    position: absolute;
+    top: 3%;
+    display: inline-block;
+    left: 42%;
+    font-size: 18px;
+    margin-left: 15px; 
+}
+
+.child span{
+margin-left: 45px;
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #fff;
+font-weight: 600;
+text-align: right;
+font-family: 'Raleway';
+}
+
+.child span_red{
+  font-family: 'Raleway';
+  margin-left: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #ef4836; 
+  font-weight: 600;
+  text-align: right;
+  }
+  
+  .child span_red:hover{
+    cursor: pointer;
+  }
+
+  .child span:hover{
+    cursor: pointer;
+  }
+
+
+
+/* Текст в низу шапки */
+.niz_shapki{  
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  position: relative;
+  display: flex;
+  flex: space;
+  
+  /* border: 2px solid red;    */
+  bottom: 500px;
+} 
+
+
+  /* Картинка с челом в шапке и кнопка "пуск"*/
+  .box_phto_men{
+    /* border: 3px   solid red; */
+    position: relative;
+    bottom: 140px;
+    width: 470px;
+    height: 510;
+    overflow: hidden;
+  }
+
+  .phto_men{
+    margin-left: -75%;
+    margin-top: -10%;
+    position: absolute;
+    height: auto;
+    width: auto; 
+    flex-shrink: 0%;
+  }
+
+  .oformleie_pusk{
+  position: relative;
+  top: 175px; 
+  left: 100px;
+  } 
+  .pusk{
+    position: relative;
+    left: 185.5px;
+    top: 72.5px;
+  }
+
+
+  .niz_shapk_text{
+    width: 700px;
+    color: #fff;
+    height: 450px;
+    margin-left: 160px;
+    padding: 10px 10px;
+    /* border: 2px solid #ffff00; */
+    position: relative;  
+    bottom: 150px;
+  }
+ 
+  .niz_shapk_text_big{
+    flex-direction: column;
+    position: relative;
+    /* border: solid blue; */
+    width: 450px;
+    height: 150px;
+    font-size: 52px;
+    letter-spacing: 1.5px;
+    line-height: 70px;
+    color: #ffffff;
+    font-family: "Raleway_regular";
+    
+  }
+
+  .One_slovo{
+  position: relative;
+  width: auto;
+  height: auto;
+  font-style: normal;
+  }
+
+  .two_slovo{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    font-style: normal;
+  }
+  .osnova_text_vnizu_shapki{
+    margin-top: 25px;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    font-family: 'Raleway__tonkiy';
+    font-style: normal;
+    letter-spacing: 1px;
+    opacity: .5;
+  }
+
+  .osnova_text_vnizu_shapki_sovsem{
+    margin-top: 5px;
+    font-family: 'Raleway_regular'; 
+    font-weight: 1000;
+
+  }
+
+  .osnova_text_vnizu_shapki_sovsem:hover{
+    text-decoration: underline;
+    color: rgb(255, 134, 53);
+    cursor: pointer;
+
+  }
+
+
+
+  /*==========================================КОНЕЦ ШАПКИ==============================================*/
+  /*===================================================================================================*/
+  /*===================================================================================================*/
+  /*===================================================================================================*/
+  /*==========================================НАЧАЛО НАЧИНКИ===========================================*/
+
+  .Naruto{
+    margin-left: 250px;
+    bottom: 400px;
+    /* border: red solid 2px; */
+    width: 1400px;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .nackinla_vech{
+    position: relative;
+    display: block;
+    background-color: black;
+    /* border: 4px solid crimson; */
+    width: 95%;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+    height: 800px;
+    bottom:  200px;
+    z-index: 0;
+  }
+
+  
+  .zad{
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    /* border: 2px solid red; */
+    margin-top: 16.5%;
+    width: 100%;
+    height: 500px;
+  }
+  .pictares_1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 100px;
+    right: 50px;
+    opacity: 0.9;
+  }
+
+  .pictares_2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 800px;
+    height: auto;
+    width: auto; 
+    overflow: hidden;
+    flex-shrink: 0%;
+  }
+
+
+  .kartinka_box{
+    margin-left: 650px;
+    margin-top: 25px;
+    display: block;
+    box-shadow: 0px 0px 1px 0px #000000;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    position: relative;
+    width: 450px;
+    height: 550px;
+ 
+  }
+  .kartinka{
+    margin-left: -300px;
+  }
+
+  .umnee_mesle{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 520px;
+    height: 100px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    bottom: 150px;
+    left: 50px;
+  }
+
+  .ne_povezlo{
+    /* border: 2px solid red; */
+    width: 115px;
+    height: 20px;
+    color: #ffffff;
+    position: relative;
+    font-family: "Raleway_regular";
+    font-weight: bold;
+    font-size: 18px;
+    bottom: 155px;
+    left: 50px;
+    letter-spacing: -0.25px;
+  }
+
+  .ne_povezlo:hover{
+    text-decoration: underline;
+    color: rgb(255, 134, 53);
+    cursor: pointer;
+
+  }
+
+
+  .sakura{
+    position: relative;
+    display: -webkit-flex; 
+    display: flex; 
+    width: 85%;
+    height: 600px;
+    /* border: 6px solid red; */
+    margin-bottom: 0%;
+    margin-left: 50px;
+    bottom: 220px;
+  }
+
+  .o_1_block{
+    width: 35%;
+    position: relative;
+  }
+
+  .o_2_block{
+    width: 35%;
+    position: relative;
+  }
+
+  .o_3_block{
+    width: 35%;
+    position: relative;
+  }
+
+
+.img_1{
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.txt_b{
+  bottom: 45px;
+  left: 100px;
+  position: relative;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.txt{
+  opacity: 0.6;
+  position: relative;
+  color: #fff;
+  font-family: "Raleway";
+  width: 275px;
+  margin-left: 50px;
+  font-size: 16px;
+  letter-spacing: -0.25px;
+  line-height: 30px;
+}
+
+.txt_niz{
+  opacity: 0.9;
+  position: relative;
+  color: #fff;
+  font-family: "Raleway_regular";
+  font-weight: bold;
+  width: 110px;
+  margin-top: 12.5px;
+  margin-left: 50px;
+  font-size: 16px;
+  letter-spacing: -0.25px;
+  line-height: 30px;
+
+}
+.txt_niz:hover{
+  text-decoration: underline;
+  color: #2980b9;
+  cursor: pointer;
+
+}
+
+.kartonki{
+margin-top: 450px;
+/* border: solid red 2px; */
+position: relative;
+width: 100%;
+height: 800px;
+bottom: 550px;
+}
+
+
+
+.reznya{
+  top: 3%;
+  /* border: red solid 2px; */
+  position: absolute;
+  margin-bottom: -150px;
+  display: inline-block;
+  left: 50%;
+  font-size: 18px;
+  margin-left: 15px; 
+}
+
+.reznya repa{
+margin-left: 45px;
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #fff;
+font-weight: 600;
+text-align: right;
+font-family: 'Raleway';
+opacity: 0.6;
+}
+
+.reznya repa_big{
+font-family: 'Raleway';
+margin-left: 45px;
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #fff;
+font-weight: 600;
+text-align: right;
+}
+
+.reznya repa_big:hover{
+  cursor: pointer;
+}
+
+.reznya repa:hover{
+  cursor: pointer;
+}
+
+/* ================================kartinki=============================== */
+
+.box_s_kartinlami{
+  /* border: goldenrod solid 4px; */
+  margin-top: 100px;
+  margin-left: 5%;
+  position: relative;  
+  display: flex;
+  width: 1492.5px;
+  height: 690px;
+  overflow: hidden;
+}
+
+.fister_blox{
+  position: relative;
+}
+
+.picerss_1{
+ position: relative;
+ /* border: #ef4836 solid 2px; */
+ width: 450px;
+ height: 320px;
+}
+
+.picerss_2{
+  position: relative;
+  /* border: #ef4836 solid 2px; */
+  width: 450px;
+  height: 340px;
+  margin-top: 30px;
+ }
+
+
+.two_bloxs{
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.two_bloxs_1{
+  display: flex;
+}
+
+.two_bloxs_2{
+  top: 10px;
+  display: flex;
+}
+
+ .picerss_3{
+  position: relative;
+  /* border: #ef4836 solid 2px; */
+  width: 450px;
+  height: 350px;
+  background-size: cover;
+  overflow: hidden;
+ }
+ 
+
+ .corr{
+  margin-bottom: -30px;
+  margin-left: -100px ;
+ }
+
+ .picerss_4{
+  position: relative;
+  /* border: #ef4836 solid 2px; */
+  width: 575px;
+  height: 350px;
+  margin-left: 10px;
+  overflow: hidden;
+ }
+
+ .corretion{
+   margin-left: 0px;
+   margin-bottom: 50px;
+ }
+
+ .picerss_5{
+   margin-top: 10px;
+  position: relative;
+  /* border: #ef4836 solid 2px; */
+  width: 575px;
+  height: 350px;
+ }
+
+
+ .picerss_6{
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  /* border: #ef4836 solid 2px; */
+  width: 450px;
+  height: 350px;
+ }
+
+
+
+/* ================================================================================================================= */
+.slider{
+  margin: 0 auto;
+  /* border: red solid 4px; */
+  position: relative;
+  display: flex;  
+  background-color: black;
+  /* border: 4px solid crimson; */
+  width: 140%;
+  overflow: hidden;
+  height: 900px;
+  bottom:  500px;
+}
+
+.hellowe{
+position: relative;
+margin-left: 200px;
+margin-top: 200px;
+width: 1100px;
+height: 500px;
+animation: animetiom 7s infinite;
+}
+
+.a2{
+  margin-left: 800px;
+  margin-top: 200px;
+  position: relative;
+  width: 1100px;
+  height: 500px;
+  animation: animetiom 7s infinite;
+}
+
+
+@keyframes animetiom {
+  from {
+    left: 0px;
+  }
+  25% { 
+  }
+  50% {
+    left: -1400px;
+  }
+  75% {
+  }
+  to {
+    left: 0px;
+  }
+}
+
+/* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+.zad_1{
+  /* border: solid 2px red; */
+  position: absolute; 
+  overflow: hidden;
+  display: block;
+  /* border: 2px solid red; */
+  margin-top: 16.5%;
+  width: 1100px;
+  height: 500px;
+}
+.pictares_12{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 100px;
+  right: 50px;
+  opacity: 0.9;
+}
+
+.pictares_2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 800px;
+  height: auto;
+  width: auto; 
+  overflow: hidden;
+  flex-shrink: 0%;
+}
+
+
+.kartinka_box_1{
+  bottom: 120px;
+  left: -150px;
+  margin-left: 220px;
+  margin-top: 25px;
+  display: block;
+  box-shadow: 0px 0px 1px 0px #000000;
+  overflow: hidden;
+  /* border: 2px solid red; */
+  position: relative;
+  width: 400px;
+  height: 550px;
+}
+.kartinka{
+  margin-left: -350px;
+}
+.umnee_mesl_e{
+  /* border: 2px solid red; */
+  position: relative;
+  width: 520px;
+  height: 100px;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+  bottom: 260px;
+  left: 580px;
+}
+
+.ne_p2ovezlo_1{
+  /* border: 2px solid red; */
+  width: 115px;
+  height: 20px;
+  color: #ffffff;
+  position: relative;
+  font-family: "Raleway_regular";
+  font-weight: bold;
+  font-size: 18px;
+  bottom: 270px;
+  left: 30px;
+  margin-left: 550px;
+  letter-spacing: -0.25px;
+}
+
+/* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+.zad_2{
+  /* border: solid 2px red; */
+  position: absolute; 
+  overflow: hidden;
+  display: block;
+  /* border: 2px solid red; */
+  margin-top: 16.5%;
+  width: 1100px;
+  height: 500px;
+}
+.pictares_123{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 100px;
+  right: 50px;
+  opacity: 0.9;
+}
+
+.kartinka_box_1235{
+  bottom: 120px;
+  left: -150px;
+  margin-left: 220px;
+  margin-top: 25px;
+  display: block;
+  box-shadow: 0px 0px 1px 0px #000000;
+  overflow: hidden;
+  /* border: 2px solid red; */
+  position: relative;
+  width: 400px;
+  height: 550px;
+}
+
+
+.kartinka_2{
+  margin-left: -350px;
+}
+
+.umnee_mesl_e_2{
+  position: relative;
+  width: 520px;
+  height: 100px;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+  bottom: 260px;
+  left: 580px;
+}
+
+.ne_p2ovezlo_2{
+  /* border: 2px solid red; */
+  width: 115px;
+  height: 20px;
+  color: #ffffff;
+  position: relative;
+  font-family: "Raleway_regular";
+  font-weight: bold;
+  font-size: 18px;
+  bottom: 270px;
+  left: 30px;
+  margin-left: 550px;
+  letter-spacing: -0.25px;
+}
+
+
+
+
+  /*=========================================КОНЕЦ НАЧИНКИ=============================================*/
+  /*===================================================================================================*/
+  /*===================================================================================================*/
+  /*===================================================================================================*/
+  /*=========================================НАЧАЛО ПОДВАЛА============================================*/
+
+
+  .podval_block{
+  margin: 0 auto; 
+  bottom: 600px;
+  position: relative;
+  /* border: 4px solid red; */
+  width: 1400px;
+  height: 200px;
+  flex-direction: column;
+}
+
+
+
+  .picture_vverxu{
+    margin:20px auto; 
+    /* border:2px solid blueviolet; */
+    display: block;
+    position: relative;
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .picture_1{
+    height: 90px;
+    width: 75px;
+  }
+  .picture_2{
+    height: 70px;
+    width: 100px;
+  }
+  
+  .picture_3{
+    height: 90px;
+    width: 75px;
+  }
+
+  .picture_4{
+    height: 70px;
+    width: 100px;
+  }
+
+  .picture_5{
+    height: 90px;
+    width: 75px; 
+  }
+
+  .picture_6{
+    height: 30px;
+    width: 100px;
+  }
+
+  /* Середина подвала */
+  .NACHINKA{
+    flex-direction: row;
+    width:1200px;
+    height:420px;
+    position: relative;
+    margin:20px auto; 
+    overflow: hidden;
+    /* border:2px solid blueviolet;    */
+  }
+
+  .left_box{
+    position: relative;
+    display: block;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-shrink: 0%;
+  }
+
+  .pic_2{
+    position: relative;
+    width: 120%;
+    height: 100%;
+    right: 500px;
+    opacity: 0.05;
+  }
+
+
+  .pic_1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text_box{
+  z-index: 1;
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  margin-top: 6%;
+  margin-left: 15%;
+}
+  .pes_1{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    letter-spacing: 2px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+
+
+  .p_1{
+    position: relative;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: "Raleway_regular"; 
+    font-weight: bold;
+  }
+
+  .p_2{ 
+    position: relative;
+    font-size: 14px;
+    font-family: "Raleway";   
+     
+  }
+
+  .p_3{
+    margin-top: 20px;
+    position: relative;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: "Raleway_regular"; 
+    font-weight: bold;
+  }
+
+  .p_4{
+    position: relative;
+    font-size: 14px;
+    font-family: "Raleway"; 
+  }
+
+  .p_5{
+    bottom: 10px;
+    position: relative;
+    font-size: 14px;
+    font-family: "Raleway"; 
+  }
+
+  .p_6{
+    margin-top: 20px;
+    position: relative;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: "Raleway_regular"; 
+    font-weight: bold;
+  }
+
+  .p_7{
+    position: relative;
+    font-size: 14px;
+    font-family: "Raleway"; 
+  }
+
+  .p_8{
+    bottom: 10px;
+    position: relative;
+    font-size: 14px;
+    font-family: "Raleway"; 
+  }
+
+
+  .right_box{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    flex-direction: row;
+    filter: drop-shadow(0px 9px 25.5px rgba(0,0,0,0.26));
+    background-color: #131313;
+    margin-top: -425px;
+    margin-left: 470px;
+    overflow: hidden;
+
+  }
+
+  .big_name{
+    margin-left: 25px;
+    height: 35;
+    width: 200px;
+    color:  #ffffff;
+    position: relative;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: "Raleway"; 
+  }
+
+  .box_on{
+    width: 300px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+
+  .box_two{
+    width: 300px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .box_tree{
+    width: 300px;
+    height: 115px;
+    margin-left: 25px;
+    margin-top: 20px;
+  } 
+
+  .box_for{
+    width: 150px;
+    height: 30px;
+    color: coral;
+    font-size: 18px;
+    font-family: "Raleway_regular";
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 25px;
+
+  }
+
+  .box_for:hover{
+    text-decoration: underline;
+    color: rgb(255, 134, 53);
+    cursor: pointer;
+
+  }
+
+  input {
+    background-color: #131313;
+    border-bottom:  2px solid rgba(54, 53, 53, 0.253);
+    border-top: #131313;
+    border-left: #131313;
+    border-right: #131313;
+    color: #2980b9;
+    font-size: 18px;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    /* outline: none; */
+    margin: 0;
+    font-family: "Raleway__tonkiy";
+}
+
+  input:hover{
+    border-bottom: 2px solid #2980b9;
+    color: #2980b9;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+ }
+
+ input:focus{
+  border-bottom: 2px solid rgba(54, 53, 53, 0.253);
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;  
+  font-family: "Raleway__tonkiy";
+  font-weight: bold;
+}
+
+.samoe_dno{
+position: relative;
+/* border: 2px solid crimson; */
+width: 100%;
+height: 150px;
+margin-top: 50px;
+flex-direction: row;
+}
+
+.logo_2{
+position: relative;
+left: 100px;
+top: 30px;
+opacity: 0.3;
+}
+
+.text_eze_odin{
+position: relative;
+font-family: "Raleway";
+left: 170px;
+top:-5px;
+color: #ffffff;
+opacity: 0.4;
+}
+
+.ne_text_eze_dva{
+  position: relative;
+  margin-left: 80%;
+}
+
+
+/* Бог в помощь */
+  .proverka
+  {
+    position: relative;
+    font-size: 72px;
+    color: #fff
+
+  }
