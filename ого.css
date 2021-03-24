@@ -2,28 +2,28 @@ body {
   background-color: black;
 }
 @font-face {
-	font-family: 'Raleway'; 
+	font-family: 'Raleway';
 	src: local('Raleway'),
-		url(../Итоговая\ работа_2/OGO/Raleway-Light.ttf); 
+		url(../Итоговая\ работа_2/OGO/Raleway-Light.ttf);
 }
 
 @font-face {
-	font-family: 'Raleway_regular'; 
+	font-family: 'Raleway_regular';
 	src: local('Raleway_regular'),
-		url(../Итоговая\ работа_2/OGO/ralewayregular.ttf); 
+		url(../Итоговая\ работа_2/OGO/ralewayregular.ttf);
 }
 
 @font-face {
-	font-family: 'Raleway__tonkiy'; 
+	font-family: 'Raleway__tonkiy';
 	src: local('Raleway__tonkiy'),
-		url(../Итоговая\ работа_2/OGO/ralewayextralight.ttf); 
+		url(../Итоговая\ работа_2/OGO/ralewayextralight.ttf);
 }
 
 
 /* Сайт */
 .SAIT{
   /* border: solid floralwhite; */
-  margin:0 auto;  
+  margin:0 auto;
   width: 1640px;
   height: auto;
   position: relative;
@@ -39,11 +39,11 @@ body {
  .logo{
   position: absolute;
   top: 50px;
-  left: 50px; 
+  left: 50px;
 }
 
 
-.shapka_block { 
+.shapka_block {
    /* border: 4px solid blue;  */
     margin: auto;
     position: relative;
@@ -67,7 +67,7 @@ padding-top: -30%;
 .shapka_pic2 {
     position: relative;
     width: 100%;
-    height: 784px; 
+    height: 784px;
 }
 .shapka_pic3{
   bottom: 30px;
@@ -89,7 +89,7 @@ padding-top: -30%;
     display: inline-block;
     left: 42%;
     font-size: 18px;
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 .child span{
@@ -109,11 +109,11 @@ font-family: 'Raleway';
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 26px;
-  color: #ef4836; 
+  color: #ef4836;
   font-weight: 600;
   text-align: right;
   }
-  
+
   .child span_red:hover{
     cursor: pointer;
   }
@@ -125,16 +125,16 @@ font-family: 'Raleway';
 
 
 /* Текст в низу шапки */
-.niz_shapki{  
+.niz_shapki{
   margin-left: 7.5%;
   margin-right: 7.5%;
   position: relative;
   display: flex;
   flex: space;
-  
+
   /* border: 2px solid red;    */
   bottom: 500px;
-} 
+}
 
 
   /* Картинка с челом в шапке и кнопка "пуск"*/
@@ -152,15 +152,15 @@ font-family: 'Raleway';
     margin-top: -10%;
     position: absolute;
     height: auto;
-    width: auto; 
+    width: auto;
     flex-shrink: 0%;
   }
 
   .oformleie_pusk{
   position: relative;
-  top: 175px; 
+  top: 175px;
   left: 100px;
-  } 
+  }
   .pusk{
     position: relative;
     left: 185.5px;
@@ -175,10 +175,10 @@ font-family: 'Raleway';
     margin-left: 160px;
     padding: 10px 10px;
     /* border: 2px solid #ffff00; */
-    position: relative;  
+    position: relative;
     bottom: 150px;
   }
- 
+
   .niz_shapk_text_big{
     flex-direction: column;
     position: relative;
@@ -190,7 +190,7 @@ font-family: 'Raleway';
     line-height: 70px;
     color: #ffffff;
     font-family: "Raleway_regular";
-    
+
   }
 
   .One_slovo{
@@ -219,7 +219,7 @@ font-family: 'Raleway';
 
   .osnova_text_vnizu_shapki_sovsem{
     margin-top: 5px;
-    font-family: 'Raleway_regular'; 
+    font-family: 'Raleway_regular';
     font-weight: 1000;
 
   }
@@ -228,10 +228,7 @@ font-family: 'Raleway';
     text-decoration: underline;
     color: rgb(255, 134, 53);
     cursor: pointer;
-
   }
-
-
 
   /*==========================================КОНЕЦ ШАПКИ==============================================*/
   /*===================================================================================================*/
@@ -261,7 +258,7 @@ font-family: 'Raleway';
     z-index: 0;
   }
 
-  
+
   .zad{
     position: absolute;
     overflow: hidden;
@@ -286,7 +283,7 @@ font-family: 'Raleway';
     height: 100%;
     bottom: 800px;
     height: auto;
-    width: auto; 
+    width: auto;
     overflow: hidden;
     flex-shrink: 0%;
   }
@@ -302,7 +299,7 @@ font-family: 'Raleway';
     position: relative;
     width: 450px;
     height: 550px;
- 
+
   }
   .kartinka{
     margin-left: -300px;
@@ -346,8 +343,8 @@ font-family: 'Raleway';
 
   .sakura{
     position: relative;
-    display: -webkit-flex; 
-    display: flex; 
+    display: -webkit-flex;
+    display: flex;
     width: 85%;
     height: 600px;
     /* border: 6px solid red; */
@@ -442,7 +439,7 @@ bottom: 550px;
   display: inline-block;
   left: 50%;
   font-size: 18px;
-  margin-left: 15px; 
+  margin-left: 15px;
 }
 
 .reznya repa{
@@ -482,7 +479,7 @@ text-align: right;
   /* border: goldenrod solid 4px; */
   margin-top: 100px;
   margin-left: 5%;
-  position: relative;  
+  position: relative;
   display: flex;
   width: 1492.5px;
   height: 690px;
@@ -531,7 +528,7 @@ text-align: right;
   background-size: cover;
   overflow: hidden;
  }
- 
+
 
  .corr{
   margin-bottom: -30px;
@@ -577,7 +574,7 @@ text-align: right;
   margin: 0 auto;
   /* border: red solid 4px; */
   position: relative;
-  display: flex;  
+  display: flex;
   background-color: black;
   /* border: 4px solid crimson; */
   width: 140%;
@@ -609,7 +606,7 @@ animation: animetiom 7s infinite;
   from {
     left: 0px;
   }
-  25% { 
+  25% {
   }
   50% {
     left: -1400px;
@@ -625,7 +622,7 @@ animation: animetiom 7s infinite;
 
 .zad_1{
   /* border: solid 2px red; */
-  position: absolute; 
+  position: absolute;
   overflow: hidden;
   display: block;
   /* border: 2px solid red; */
@@ -648,7 +645,7 @@ animation: animetiom 7s infinite;
   height: 100%;
   bottom: 800px;
   height: auto;
-  width: auto; 
+  width: auto;
   overflow: hidden;
   flex-shrink: 0%;
 }
@@ -702,7 +699,7 @@ animation: animetiom 7s infinite;
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 .zad_2{
   /* border: solid 2px red; */
-  position: absolute; 
+  position: absolute;
   overflow: hidden;
   display: block;
   /* border: 2px solid red; */
@@ -777,7 +774,7 @@ animation: animetiom 7s infinite;
 
 
   .podval_block{
-  margin: 0 auto; 
+  margin: 0 auto;
   bottom: 600px;
   position: relative;
   /* border: 4px solid red; */
@@ -789,7 +786,7 @@ animation: animetiom 7s infinite;
 
 
   .picture_vverxu{
-    margin:20px auto; 
+    margin:20px auto;
     /* border:2px solid blueviolet; */
     display: block;
     position: relative;
@@ -808,7 +805,7 @@ animation: animetiom 7s infinite;
     height: 70px;
     width: 100px;
   }
-  
+
   .picture_3{
     height: 90px;
     width: 75px;
@@ -821,7 +818,7 @@ animation: animetiom 7s infinite;
 
   .picture_5{
     height: 90px;
-    width: 75px; 
+    width: 75px;
   }
 
   .picture_6{
@@ -835,7 +832,7 @@ animation: animetiom 7s infinite;
     width:1200px;
     height:420px;
     position: relative;
-    margin:20px auto; 
+    margin:20px auto;
     overflow: hidden;
     /* border:2px solid blueviolet;    */
   }
@@ -888,15 +885,15 @@ animation: animetiom 7s infinite;
     position: relative;
     margin-top: 5%;
     font-size: 30px;
-    font-family: "Raleway_regular"; 
+    font-family: "Raleway_regular";
     font-weight: bold;
   }
 
-  .p_2{ 
+  .p_2{
     position: relative;
     font-size: 14px;
-    font-family: "Raleway";   
-     
+    font-family: "Raleway";
+
   }
 
   .p_3{
@@ -904,21 +901,21 @@ animation: animetiom 7s infinite;
     position: relative;
     margin-top: 5%;
     font-size: 30px;
-    font-family: "Raleway_regular"; 
+    font-family: "Raleway_regular";
     font-weight: bold;
   }
 
   .p_4{
     position: relative;
     font-size: 14px;
-    font-family: "Raleway"; 
+    font-family: "Raleway";
   }
 
   .p_5{
     bottom: 10px;
     position: relative;
     font-size: 14px;
-    font-family: "Raleway"; 
+    font-family: "Raleway";
   }
 
   .p_6{
@@ -926,21 +923,21 @@ animation: animetiom 7s infinite;
     position: relative;
     margin-top: 5%;
     font-size: 30px;
-    font-family: "Raleway_regular"; 
+    font-family: "Raleway_regular";
     font-weight: bold;
   }
 
   .p_7{
     position: relative;
     font-size: 14px;
-    font-family: "Raleway"; 
+    font-family: "Raleway";
   }
 
   .p_8{
     bottom: 10px;
     position: relative;
     font-size: 14px;
-    font-family: "Raleway"; 
+    font-family: "Raleway";
   }
 
 
@@ -965,7 +962,7 @@ animation: animetiom 7s infinite;
     position: relative;
     margin-top: 5%;
     font-size: 30px;
-    font-family: "Raleway"; 
+    font-family: "Raleway";
   }
 
   .box_on{
@@ -987,7 +984,7 @@ animation: animetiom 7s infinite;
     height: 115px;
     margin-left: 25px;
     margin-top: 20px;
-  } 
+  }
 
   .box_for{
     width: 150px;
@@ -1038,7 +1035,7 @@ animation: animetiom 7s infinite;
   -webkit-transition: all 0.3s ease;;
   -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
-  transition: all 0.3s ease;  
+  transition: all 0.3s ease;
   font-family: "Raleway__tonkiy";
   font-weight: bold;
 }
